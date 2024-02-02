@@ -1,0 +1,14 @@
+C:\dev\Cities.API\Cities.API.Infrastructure\bin\Debug\net8.0\Cities.API.Infrastructure.deps.json
+C:\dev\Cities.API\Cities.API.Infrastructure\bin\Debug\net8.0\Cities.API.Infrastructure.runtimeconfig.json
+C:\dev\Cities.API\Cities.API.Infrastructure\bin\Debug\net8.0\Cities.API.Infrastructure.dll
+C:\dev\Cities.API\Cities.API.Infrastructure\bin\Debug\net8.0\Cities.API.Infrastructure.pdb
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.csproj.AssemblyReference.cache
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.AssemblyInfoInputs.cache
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.AssemblyInfo.cs
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.csproj.CoreCompileInputs.cache
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.dll
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\refint\Cities.API.Infrastructure.dll
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.pdb
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\Cities.API.Infrastructure.genruntimeconfig.cache
+C:\dev\Cities.API\Cities.API.Infrastructure\obj\Debug\net8.0\ref\Cities.API.Infrastructure.dll
