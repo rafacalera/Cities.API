@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lArIa2j/CYhyuqlB3JxOb65dA4OFKJHgmu1Akg3S6PGOvLr+1zxADd+w2fmjvIga4HWuhTiGV/5Tdnp/arEllg==",
+  "dgSpecHash": "9fawgA6OWDHWzlGYGRvCTY4y6PGMfJcio4TtFG03jauYsdZc7W8oOaBmQLiN/6fTxvvqtlSyKZaz5/Lg5DOV0Q==",
   "success": true,
-  "projectFilePath": "C:\\dev\\Cities.API\\Cities.API\\Cities.API.csproj",
+  "projectFilePath": "C:\\dev\\github\\Cities.API\\Cities.API\\Cities.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rafael.calera\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\rafael.calera\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

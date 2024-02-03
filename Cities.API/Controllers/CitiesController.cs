@@ -27,7 +27,7 @@ namespace Cities.API.Controllers
 
 
 
-            return Ok(cities.Select(c => new CityViewModel(c.Name, c.State)));
+            return Ok(cities.Select(c => new CityViewModel(c.Name, c.State)).AsEnumerable());
         }
 
         [HttpGet("{id}")]
@@ -49,7 +49,7 @@ namespace Cities.API.Controllers
         {
             var cityDto = _services.Add(cityViewModel.Name, cityViewModel.State);
 
-            if (cityDto == null) return BadRequest("Missing required fields");
+            if (cityDto == null) return BadRequest();
             
             return Created($"api/v1/Cities/{cityDto.Id}", new CityViewModel(cityDto.Name, cityDto.State));
 
@@ -72,8 +72,7 @@ namespace Cities.API.Controllers
         [ProducesResponseType(404)]
         public IActionResult Delete(int id)
         {
-            bool sucess = _services.Delete(id);
-            if (!sucess) return NotFound();
+            if (_services.Delete(id) == false) return NotFound();
             return Ok();
         }
     }

@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.API", "Cities.API\Cities.API.csproj", "{56256C81-FD21-457C-BC7F-644E3DB4399E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities.API", "Cities.API\Cities.API.csproj", "{56256C81-FD21-457C-BC7F-644E3DB4399E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.API.Services", "Cities.API.Services\Cities.API.Services.csproj", "{180ECF96-26F0-40CB-9EC6-5EEE1F937243}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities.API.Services", "Cities.API.Services\Cities.API.Services.csproj", "{180ECF96-26F0-40CB-9EC6-5EEE1F937243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.API.Infrastructure", "Cities.API.Infrastructure\Cities.API.Infrastructure.csproj", "{351A4C83-848E-49A2-AB57-FF7F550FFA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities.API.Infrastructure", "Cities.API.Infrastructure\Cities.API.Infrastructure.csproj", "{351A4C83-848E-49A2-AB57-FF7F550FFA19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9540C6E4-3F44-4196-8EEC-5D632801FCDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cities.API.UnitTest", "Cities.API.UnitTest\Cities.API.UnitTest.csproj", "{3DB0C06E-1564-4DE4-9280-1C59CB938C76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +31,16 @@ Global
 		{351A4C83-848E-49A2-AB57-FF7F550FFA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{351A4C83-848E-49A2-AB57-FF7F550FFA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{351A4C83-848E-49A2-AB57-FF7F550FFA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB0C06E-1564-4DE4-9280-1C59CB938C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB0C06E-1564-4DE4-9280-1C59CB938C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB0C06E-1564-4DE4-9280-1C59CB938C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB0C06E-1564-4DE4-9280-1C59CB938C76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DB0C06E-1564-4DE4-9280-1C59CB938C76} = {9540C6E4-3F44-4196-8EEC-5D632801FCDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92E363F0-FF99-4341-9E36-D2C7D9C60700}
