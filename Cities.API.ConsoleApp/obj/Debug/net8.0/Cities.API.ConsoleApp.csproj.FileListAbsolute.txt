@@ -1,0 +1,15 @@
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\bin\Debug\net8.0\Cities.API.ConsoleApp.exe
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\bin\Debug\net8.0\Cities.API.ConsoleApp.deps.json
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\bin\Debug\net8.0\Cities.API.ConsoleApp.runtimeconfig.json
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\bin\Debug\net8.0\Cities.API.ConsoleApp.dll
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\bin\Debug\net8.0\Cities.API.ConsoleApp.pdb
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.AssemblyInfoInputs.cache
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.AssemblyInfo.cs
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.sourcelink.json
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.dll
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\refint\Cities.API.ConsoleApp.dll
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.pdb
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\Cities.API.ConsoleApp.genruntimeconfig.cache
+C:\dev\github\Cities.API\Cities.API.ConsoleApp\obj\Debug\net8.0\ref\Cities.API.ConsoleApp.dll

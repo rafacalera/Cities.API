@@ -1,0 +1,16 @@
+<div>
+  <button (click)="list()">List</button>
+  <table>
+    <caption>
+      <h2>Table of Cities</h2>
+    </caption>
+    <tr>
+      <th><h2>City</h2></th>
+      <th><h2>State</h2></th>
+    </tr>
+    <tr *ngFor="let city of cityList">
+      <td>{{ city.name }}</td>
+      <td>{{ city.state }}</td>
+    </tr>
+  </table>
+</div>
