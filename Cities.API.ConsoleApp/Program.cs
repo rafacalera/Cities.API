@@ -6,7 +6,7 @@ namespace Cities.API.ConsoleApp
     {
         private static HttpClient _sharedClient = new()
         {
-            BaseAddress = new Uri("http://localhost:5222"),
+            BaseAddress = new Uri("http://localhost:5222/api/v1/"),
         };
         private static Tasks _tasks = new Tasks(_sharedClient);
 

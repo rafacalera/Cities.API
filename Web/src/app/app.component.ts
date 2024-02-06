@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'Web';
-  private readonly API = 'http://localhost:5222/Cities';
+  private readonly API = 'http://localhost:5222/api/v1/Cities';
   cities: Array<any> = [];
 
   constructor(private http: HttpClient) {}

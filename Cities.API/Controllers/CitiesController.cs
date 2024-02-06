@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Cities.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class CitiesController : ControllerBase
     {
         private readonly ICityServices _services;

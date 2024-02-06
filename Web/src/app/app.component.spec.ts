@@ -54,7 +54,7 @@ describe('AppComponent', () => {
       { name: 'City2', state: 'State2' },
     ];
 
-    const req = httpMock.expectOne('http://localhost:5222/Cities');
+    const req = httpMock.expectOne('http://localhost:5222/api/v1/Cities');
     req.flush(mockCities);
 
     component.list();

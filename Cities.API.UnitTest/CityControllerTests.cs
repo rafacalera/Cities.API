@@ -12,7 +12,7 @@ namespace Cities.API.UnitTest
     public class CityControllerTests
     {
         [Fact]
-        public void GetAll_HasRegistrations_Ok()
+        public void GetAll_ListCityDTO_Ok()
         {
             // Arrange
             var mockServices = new Mock<ICityServices>();
@@ -44,7 +44,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void GetAll_NoRegistrations_NoContent()
+        public void GetAll_EmptyListCityDTO_NoContent()
         {
             var mockServices = new Mock<ICityServices>();
             var cities = new List<CityDTO>();
@@ -62,7 +62,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void GetById_FoundId_Ok()
+        public void GetById_CityDTO_Ok()
         {
             var mockServices = new Mock<ICityServices>();
             var city = new CityDTO() { Id = 1, Name = "City1", State = "State1" };
@@ -85,7 +85,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void GetById_NotFoundId_NotFound()
+        public void GetById_CityDTONull_NotFound()
         {
             var mockServices = new Mock<ICityServices>();
             int id = 2;
@@ -104,7 +104,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Add_IsValid_Created()
+        public void Add_CityDTO_Created()
         {
             var mockServices = new Mock<ICityServices>();
             CityViewModel cityViewModel = new CityViewModel("City1", "State1");
@@ -131,7 +131,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Add_NotValid_BadRequest()
+        public void Add_CityDTONull_BadRequest()
         {
             var mockServices = new Mock<ICityServices>();
             CityViewModel cityViewModel = new CityViewModel("City1", "");
@@ -149,7 +149,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Update_IsValid_Ok()
+        public void Update_CityDTO_Ok()
         {
             var mockServices = new Mock<ICityServices>();
             var id = 1;
@@ -172,7 +172,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Update_NotValid_BadRequest()
+        public void Update_CityDTONull_BadRequest()
         {
             var mockServices = new Mock<ICityServices>();
             var id = 1;
@@ -190,7 +190,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Delete_IsValid_Ok()
+        public void Delete_True_Ok()
         {
             var mockServices = new Mock<ICityServices>();
             int id = 1;
@@ -207,7 +207,7 @@ namespace Cities.API.UnitTest
         }
 
         [Fact]
-        public void Delete_NotValid_NotFound()
+        public void Delete_False_NotFound()
         {
             var mockServices = new Mock<ICityServices>();
             int id = 2;

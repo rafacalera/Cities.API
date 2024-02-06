@@ -21,7 +21,7 @@ namespace Cities.API.ConsoleApp
 
         public async Task GetAll()
         {
-            using HttpResponseMessage response = await SharedClient.GetAsync("/Cities");
+            using HttpResponseMessage response = await SharedClient.GetAsync("Cities");
 
             response.EnsureSuccessStatusCode();
 
@@ -36,7 +36,7 @@ namespace Cities.API.ConsoleApp
             Console.WriteLine("Digite o id da cidade:");
             int id = int.Parse(Console.ReadLine().Trim());
 
-            using HttpResponseMessage response = await SharedClient.GetAsync($"/Cities/{id}");
+            using HttpResponseMessage response = await SharedClient.GetAsync($"Cities/{id}");
             response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
@@ -54,7 +54,7 @@ namespace Cities.API.ConsoleApp
             var body = JsonSerializer.Serialize(new City(city, state));
             var content = new StringContent(body, Encoding.UTF8, "application/json");
 
-            using HttpResponseMessage response = await SharedClient.PostAsync("/Cities", content);
+            using HttpResponseMessage response = await SharedClient.PostAsync("Cities", content);
             response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
@@ -75,7 +75,7 @@ namespace Cities.API.ConsoleApp
             var body = JsonSerializer.Serialize(new City(city, state));
             var content = new StringContent(body, Encoding.UTF8, "application/json");
 
-            using HttpResponseMessage response = await SharedClient.PutAsync($"/Cities/{id}", content);
+            using HttpResponseMessage response = await SharedClient.PutAsync($"Cities/{id}", content);
             response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
 
