@@ -1,19 +1,25 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Web';
   private readonly API = 'http://localhost:5222/Cities';
-  cityList: any;
+  cities: Array<any> = [];
 
   constructor(private http: HttpClient) {}
 
-  list() {
-    this.http.get(this.API).subscribe((data) => (this.cityList = data));
+  ngOnInit() {
+    this.list();
+  }
+
+  list(): void {
+    this.http.get(this.API).subscribe((data) => {
+      this.cities = data as Array<any>;
+    });
   }
 }
